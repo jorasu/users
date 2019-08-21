@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页面</title>
+    <link type="text/css" href="css/main.css" rel="stylesheet"/>
+</head>
+<body>
+     <h3>商务会员管理系统</h3>
+     <div id="nav">  用户名：<span id="name"></span> 用户类型: <span id="type"></span> <a href="javascript:if(confirm('确定要退出系统么？')){window.location='login.html'}">退出</a></div>
+
+     <div id="content">
+         <div id="content_left">
+             <p><a href="javascript:;" id="pwd" onclick="pwd()">修改密码</a></p>
+             <p><a href="javascript:;" id="searchInfo" onclick="searchInfo()">查看所有会员信息</a></p>
+         </div>
+
+         <div id="content_right">
+           <p id="wel">欢迎使用商务会员管理系统</p>
+         </div>
+     </div>
+
+</body>
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
